@@ -1,0 +1,61 @@
+html,
+body {
+      height: 100vh;
+}
+
+body {
+      display: flex;
+      flex-direction: column;
+}
+
+section {
+      background: rgba(236, 240, 241, .65);
+      margin: auto;
+
+}
+
+Table,
+tr,
+td,
+th {
+      border: 1px solid olive;
+      border-collapse: collapse;
+}
+
+th,
+td {
+      padding: .5em;
+      padding-inline: 2em;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+      font-weight: 600;
+}
+
+h2 {
+      margin-top: 0%;
+      text-align: center;
+      font-weight: 900;
+}
+
+thead {
+      background-color: red;
+}
+
+tr:hover:nth-child(2n) {
+
+      background: red;
+      color: cyan;
+      transform: scale(1.15);
+}
+
+tr:hover:nth-child(2n+1) {
+      background-color: aqua;
+      color: red;
+      transform: scale(1.15);
+}
+
+h2:hover {
+      color: red;
+      font-weight: bolder;
+      transform: scale(1.5);
+}
